@@ -1,0 +1,492 @@
+.section {
+    background-size: cover;
+}
+
+.slide {
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.fp {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home {
+    margin: 0;
+    max-width: 100%;
+    background: url(https://smazee-development-labs.github.io/srimuthaiah/img/bg2.png) center center fixed;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+}
+
+.des {
+ width:50%;
+  height:100vh;
+  background: #eee;
+  z-index:2;
+  letter-spacing:2px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.about_us_design{
+     width: inherit;
+     height: fill;
+     background-color: #1c92d2;
+    /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav a {
+    text-decoration: none;
+    text-align: justify;
+    padding: 10px 30px;
+    float: right;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.hero_content {
+   /* background-image: url(../img/hero_image.jpg);*/
+}
+
+.hero_branding {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-style: bold;
+    font-size: 34px;
+    
+    
+}
+
+.about_us_tri {
+    width: 0;
+    height: 0;
+    border-top: 100px solid;
+    border-right: 100px solid;
+    border-top-color: #1c92d2;
+    /* fallback for old browsers */
+    border-top-color: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.second {
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#vision {
+    z-index: -100;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: rgba(126, 126, 126, 0.4);
+    backface-visibility: hidden;
+    display: block;
+}
+
+.aboutus-h1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 50;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.aboutus-p {
+    padding: 10px 50px;
+    margin: 5px 5px;
+    word-spacing: 5;
+    color: white;
+    font-size: 18;
+}
+
+@media (max-width:970px) {
+    .menu {
+        display: block;
+    }
+    .nav-content {
+        display: none;
+    }
+    .nav-icon {
+        max-width: 20%;
+        max-height: 20%;
+    }
+    .cen {
+        padding: 0px;
+    }
+    .aboutus-h1 {
+        font-size: 5;
+    }
+    h4.courses {
+        padding: 1px;
+        margin: 2px 2px;
+    }
+}
+
+.cen {
+    display: block;
+    flex: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.cen-h1 {
+    margin-top: -30px;
+    background: -webkit-linear-gradient(345deg, rgba(237, 103, 0, 1) 0%, rgba(250, 10, 10, 0.9) 91.7%, rgba(250, 10, 10, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bree Serif', serif;
+    text-align: center justify;
+    font-weight: 500;
+    font-size: 50;
+}
+
+.cen h4 {
+    margin-top: -40px;
+    color: white;
+}
+
+.cen h2 {
+    color: black;
+}
+
+@media (max-width:970px) {
+    .cen-h1 {
+        font-size: 40;
+        text-align: center justify;
+    }
+}
+
+.social {}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social i {
+    font-size: 30px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.social i:hover {
+    color: blue;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:970px) {
+    #particles-js {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.slide .vision {
+    margin: 0;
+    max-width: 100%;
+    background: url(https://smazee-development-labs.github.io/srimuthaiah/img/vision-mission-banner.jpg) center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+}
+
+@media (max-width:970px) {
+    .vision {
+        background: linear-gradient(rgba(201, 218, 255, 0.74) 0%, rgba(0, 0, 255, 0.78) 100%);
+    }
+}
+
+.vision-head {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 50;
+    letter-spacing: 10px;
+}
+
+.vision-ul {
+    color: aliceblue;
+}
+
+.mission {
+    background-color: linear-gradient(#196ED7 0%, #12e5b6 100%);
+}
+
+.mission-head {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 50;
+    letter-spacing: 10px;
+}
+
+.missionh1-ul {}
+
+.mission {
+    margin: 0;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+}
+
+
+/*PAST*/
+
+.past h1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 35;
+    letter-spacing: 4px;
+}
+
+.past h4 {
+    padding: 2px 100px;
+}
+
+.past ol {
+    padding: 2px 150px;
+}
+
+
+/*AWARDS*/
+
+.award {
+    background-color: lightcyan;
+}
+
+.award h1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 35;
+    letter-spacing: 4px;
+}
+
+.award h3 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.award h4 {
+    text-align: center;
+}
+
+#btn-close-modal {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1.courses {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 35;
+    letter-spacing: 4px;
+}
+
+h4.courses {
+    padding: 10px;
+    margin: 0px 200px;
+}
+
+@media (max-width:970px) {
+    h4.courses {
+        padding: 1px;
+        margin: 2px 4px;
+    }
+}
+
+.cards-view {
+    margin: 50px 50px;
+}
+
+.card,
+.hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 350px;
+    max-width: 325.22px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-img-1 {
+    max-height: 200px;
+}
+
+@media (max-width:970px) {
+    .cards-view {
+        align-content: center center;
+    }
+}
+
+.card-h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.g-1 {
+    display: table-cell;
+    padding: 0px 30px;
+}
+
+.g-2 {
+    display: table-cell;
+    padding: 30px 30px;
+}
+
+.g-3 {
+    display: table-cell;
+    padding: 0px 30px;
+}
+
+.g-4 {
+    display: table-cell;
+    padding: 30px 120px;
+}
+
+@media (max-width:970px) {
+    .card-li {
+        padding: 5px;
+    }
+    .g-1,
+    .g-2,
+    .g-3,
+    .g-4 {
+        padding: 5px;
+        display: table-row;
+    }
+}
+
+.card p {
+    margin-top: -1px;
+}
+
+.card-a {
+    text-decoration: none;
+    color: black;
+}
+
+#btn-close-modal {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/*AFFILATIONS*/
+
+.len-h1 {
+    text-align: center;
+    font-size: 35;
+    letter-spacing: 4px;
+}
+
+.len-card {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 480px;
+    max-width: 315px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.aff-li {
+    display: table-cell;
+}
+
+.aff-li h1 {
+    text-align: center;
+}
+
+.aff-li p {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+@media (max-width:970px) {
+    .aff-li {
+        display: table-row;
+    }
+}
+
+
+/*GALLERY*/
+
+.gall {
+    background-color: #e5e5e5;
+}
+
+.gal {
+    position: relative;
+    max-height: 500px;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.gall h1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 35;
+    letter-spacing: 4px;
+    color: darkgreen;
+}
+
+.gal ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.gal li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gal img {
+    display: absolute;
+    height: auto;
+    max-width: 100%;
+}
+
+
+/*CONTACT US*/
+
+.contactus h1 {
+    text-align: center;
+}
