@@ -1,24 +1,49 @@
 body{
     padding-top: 150px;
+    height: 100%;
 }
 nav{
     background-color: #0099d9;
+
+
+}
+a{
+    color: #fff;
+}
+#hero{
+     background-image: url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg");
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
 
+
+.icon-bar{
+    color: #fff;
+    background-color: #fff;
+}
 .navbar-brand{
  
-    height: 150px;
+    height: 70px;
     text-align: center;
-    
+    color: #fff;
+    transition: height 1s linear 1s;
 }  
 .navbar-collapse{
-    padding-top: 75px;
-     
+    padding-top: 15px;
+    transition: height 1s linear 1s;
+}
+navbar-nav{
+    color: #fff;
 }
 .scrolled-nav{
     height:50px;
+     transition:height 1s linear 1s;
 
 }
 .scrolled-nav-collapse{
     padding-top:0px;
+     transition:  height 1s linear 1s;
 }
