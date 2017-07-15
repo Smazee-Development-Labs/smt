@@ -1,0 +1,24 @@
+body{
+    padding-top: 150px;
+}
+nav{
+    background-color: #0099d9;
+}
+
+.navbar-brand{
+ 
+    height: 150px;
+    text-align: center;
+    
+}  
+.navbar-collapse{
+    padding-top: 75px;
+     
+}
+.scrolled-nav{
+    height:50px;
+
+}
+.scrolled-nav-collapse{
+    padding-top:0px;
+}
