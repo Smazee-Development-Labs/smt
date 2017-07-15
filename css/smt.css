@@ -1,49 +1,92 @@
-body{
+body {
     padding-top: 150px;
     height: 100%;
 }
-nav{
+
+nav {
     background-color: #0099d9;
-
-
 }
-a{
+
+.banner-tailoring {
+    height: 300px;
+    color: #fff;
+    margin-top: 75px;
+     margin-bottom: 75px;
+    background-color: #0099d9;
+}
+
+.banner-hotelmanagement {
+    height: 300px;
+    color: #fff;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #ff0000;
+}
+
+.banner-technical {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 300px;
+    color: #fff;
+    background-color: #ffaa45;
+}
+
+.banner-computer {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 300px;
+    color: #fff;
+    background-color: #e7e7ff;
+}
+.banner_form{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 300px;
+    color: #fff;
+    background-color: #0099d9;
+}
+
+a {
     color: #fff;
 }
-#hero{
-     background-image: url("http://www.solidbackgrounds.com/images/1920x1080/1920x1080-white-solid-color-background.jpg");
-       background-position: center;
+
+.hero {
+    background-image: url("http://nscsindia.org/images/nscd-banner-home.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
+    height: 50%;
+    margin-top: -80px;
 }
 
-
-.icon-bar{
+.icon-bar {
     color: #fff;
     background-color: #fff;
 }
-.navbar-brand{
- 
+
+.navbar-brand {
     height: 70px;
     text-align: center;
     color: #fff;
     transition: height 1s linear 1s;
-}  
-.navbar-collapse{
+}
+
+.navbar-collapse {
     padding-top: 15px;
     transition: height 1s linear 1s;
 }
-navbar-nav{
+
+navbar-nav {
     color: #fff;
 }
-.scrolled-nav{
-    height:50px;
-     transition:height 1s linear 1s;
 
+.scrolled-nav {
+    height: 50px;
+    transition: height 1s linear 1s;
 }
-.scrolled-nav-collapse{
-    padding-top:0px;
-     transition:  height 1s linear 1s;
+
+.scrolled-nav-collapse {
+    padding-top: 0px;
+    transition: height 1s linear 1s;
 }
