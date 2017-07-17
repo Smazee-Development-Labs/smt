@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $('#font_logo').hide();  
+  
+
   var scrollTop = 0;
   $(window).scroll(function(){
     scrollTop = $(window).scrollTop();
