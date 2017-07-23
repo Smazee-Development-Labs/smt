@@ -77,14 +77,14 @@ Sri Muthaiah Memorial Trust</font></a>
             </div>
             <hr>
             <div class="form_body">
-                <form>
+                <form action="" method="post">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                        <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Phone Number / Email ID</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Contact / Email ID">
+                        <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="Contact / Email ID" required>
                     </div>
 
 
@@ -1113,7 +1113,42 @@ Sri Muthaiah Memorial Trust</font></a>
 </div>
 
 
+<?php
+ require("sendgrid-php/sendgrid-php.php");
 
+date_default_timezone_set('Asia/Calcutta');
+
+$y = date('Y-m-d h-i-s'); 
+$name=$_POST['name'];
+$emailid=$_POST['email'];
+$mail ="santhoshnarendra@gmail.com";
+
+
+
+
+
+if ($con->connect_error) {
+     die("Connection failed: " . $con->connect_error);
+} 
+else
+{
+
+
+    
+    $from = new SendGrid\Email("New Leads from Website", "tech@smazee.com");
+$subject = "New Lead ";
+$to = new SendGrid\Email("Muthaiah Client", $mail);
+$content = new SendGrid\Content("text/plain", "New Lead for a site at ".$y."Name".$name."Email".$emailid."");
+$mail = new SendGrid\Mail($from, $subject, $to, $content);
+
+$sg = new \SendGrid("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");
+$response = $sg->client->mail()->send()->post($mail);   
+
+
+
+}
+$con -> close();
+?>
 
 
 
