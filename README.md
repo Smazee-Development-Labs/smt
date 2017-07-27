@@ -1,3 +1,3 @@
 # srimuthaiah
 srimuthiah.com
-https://smazee-development-labs.github.io/smt
+https://smazee-development-labs.github.io/smt.github.io
